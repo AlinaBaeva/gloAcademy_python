@@ -1,5 +1,6 @@
-# выводим одной командой print 'Glo Academy'
+# выводим с помощью трех команд
 print('Glo Academy')
-# с помощью трех команд print
-print('Glo', end=' ')
-print('Academy')
+print()
+print('Glo Academy')
+# с помощью 1 команды
+print('Glo Academy', 'Glo Academy', sep='\n\n')
