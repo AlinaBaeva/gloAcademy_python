@@ -1,1 +1,5 @@
-Здесь будет зад 1
+# выводим одной командой print 'Glo Academy'
+print('Glo Academy')
+# с помощью трех команд print
+print('Glo', end=' ')
+print('Academy')
