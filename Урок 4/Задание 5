@@ -1,0 +1,6 @@
+# вводится кол-во секунд. Найти часы:минуты:секнуды
+second = int(input())
+hour = second // 3600
+minute = (second - (hour * 3600)) // 60
+sec = (second - (hour * 3600)) - (minute * 60)
+print(second, 'секунд - это', hour, 'час', minute, 'минут', sec, 'сек')
