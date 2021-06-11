@@ -1,0 +1,8 @@
+# вводится цена в руб и коп и кол-во. Выводится цена за это кол-во
+r, k, n = int(input()), int(input()), int(input())
+k_float = k / 100
+price_float = r + k_float
+price_float_n = price_float * n
+r = int(price_float_n)
+k = int(price_float_n * 100 % 100)
+print('За', n, 'мяча нужно заплатить', r, 'рублей и', k, 'копеек')
