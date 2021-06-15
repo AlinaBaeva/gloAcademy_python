@@ -1,0 +1,8 @@
+# Вам нужно узнать, есть ли в этом тексте упоминание об Glo Academy.
+text = input()
+
+if 'Glo Academy' in text:
+    print('YES')
+else:
+    print('NO')
+    
