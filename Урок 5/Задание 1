@@ -1,0 +1,8 @@
+# сравнение паролей 
+password = input()
+password_2 = input()
+
+if password == password_2:
+    print('Все окей!')
+else:
+    print('Пароли не совпадают')
