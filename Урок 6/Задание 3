@@ -1,0 +1,13 @@
+# Длины статей
+paper_1, paper_2, paper_3 = input(), input(), input()
+
+if len(paper_1) > len(paper_2) and len(paper_1) > len(paper_3):
+    print(paper_1)
+elif len(paper_2) > len(paper_1) and len(paper_2) > len(paper_3):
+    print(paper_2)
+elif len(paper_3) > len(paper_1) and len(paper_3) > len(paper_2):
+    print(paper_3)
+elif len(paper_1) == len(paper_2) or len(paper_2) == len(paper_3):
+    print(paper_2)
+elif len(paper_3) == len(paper_1):
+    print(paper_1)
