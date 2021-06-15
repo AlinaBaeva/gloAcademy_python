@@ -1,0 +1,8 @@
+# вывести количество дней, за которые выполняется k заданий, с учетм скорости выполнения m
+import math
+k = int(input())
+m = int(input())
+
+days = k / m
+
+print(math.ceil(days))
