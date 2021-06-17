@@ -1,0 +1,14 @@
+# вывод четных чисел на введенном промежутке
+a, b = int(input()), int(input())
+
+if a < b:
+    for i in range(a, b + 1):
+        if a % 2 == 0:
+            print(a)
+        a += 1
+else:
+    for i in range(b, a + 1):
+        if b % 2 == 0:
+            print(b)
+        b += 1
+
