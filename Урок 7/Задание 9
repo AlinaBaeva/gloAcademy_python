@@ -1,0 +1,14 @@
+# если в последовательности есть нечетное число, то вывести YES, иначе NO
+print('Введите количество чисел в последовательности')
+n = int(input())
+count = 0
+print('Введите числа последовательности')
+for i in range(n):
+    num = int(input())
+    if num % 2 != 0:
+        count += 1
+if count > 0:
+    print('YES')
+else:
+    print('NO')
+
