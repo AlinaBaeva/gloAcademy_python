@@ -1,0 +1,14 @@
+# вывод макс и мин числа введенной последовательности
+print('Введите число, которое больше или равно 2')
+n = int(input())
+print('Введите числа последовательности')
+maximum = int(input())
+minimum = maximum
+for i in range(n - 1):
+    num = int(input())
+    if num > maximum:
+        maximum = num
+    elif num < minimum:
+        minimum = num
+print('Минимум равен', minimum)
+print('Максимум равен', maximum)
