@@ -1,0 +1,6 @@
+# вывод последовательности чисел от a до b
+a, b = int(input()), int(input())
+
+for i in range(a, b + 1):
+    print(a)
+    a += 1
