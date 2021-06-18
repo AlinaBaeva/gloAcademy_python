@@ -1,5 +1,6 @@
 # Определите является ли данное число замечательным.
 a = int(input())
+number = a
 total = 0
 while number != 0:
     last_digit = number % 10
