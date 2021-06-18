@@ -1,7 +1,0 @@
-# Определите сколько раз a делится на 2 нацело 
-a = int(input())
-count = 0
-while a % 2 == 0:
-    count += 1
-    a = a / 2
-print(count)

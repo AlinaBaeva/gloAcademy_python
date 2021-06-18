@@ -1,9 +1,0 @@
-# Определите сколько цифр 5 встречается в а
-a = int(input())
-count = 0
-while a != 0:
-    last_digit = a % 10
-    if last_digit == 5:
-        count += 1
-    a = a // 10
-print(count)
