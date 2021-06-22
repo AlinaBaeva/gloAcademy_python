@@ -1,19 +1,11 @@
 # вычислить, есть ли во введенном числе 1
-counter = 0
 n = int(input())
-k = n
-while k != 0:
-    k = k // 10
-    counter += 1
-print(counter)
-
-for i in range(counter):
+while n > 0:
     f = 0
     if n % 10 == 1:
         print('YES')
         break
-    else:
-        n = n // 10
-        f = 1
+    n = n // 10
+    f = 1
 if f == 1:
     print('NO')
