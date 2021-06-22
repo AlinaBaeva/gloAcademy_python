@@ -1,0 +1,10 @@
+# сколько цифр 5 в последовательности от 1 до N
+n = int(input())
+count = 0
+for i in range(1, n + 1):
+    m = i
+    while m > 0:
+        if m % 10 == 5:
+            count += 1
+        m = m // 10
+print(count)
