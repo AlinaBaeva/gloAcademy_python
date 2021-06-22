@@ -1,0 +1,14 @@
+num = int(input())
+total = 0
+total2 = 0
+while num > 0:
+    total += num % 10
+    num //= 10
+
+while total > 0:
+    total2 += total % 10
+    total //= 10
+            
+
+
+print(total2)    
