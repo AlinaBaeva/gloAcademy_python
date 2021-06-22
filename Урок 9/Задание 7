@@ -1,0 +1,8 @@
+# электронные часы
+a = 1
+while a == 1:
+    for hours in range(0, 24):
+        for minute in range(0, 60):
+            for seconds in range(0, 60):
+                print(hours, minute, seconds, sep=':')
+        print()    
