@@ -23,8 +23,7 @@ def opt_counter(secret_number, n):
     
     for i in range(1, n + 1):
         list_numbers.append(i)
-    list_numbers.sort()
-    # print(list_numbers)     
+    list_numbers.sort()  
     mid = len(list_numbers) // 2
     low = 0
     high = len(list_numbers) - 1
